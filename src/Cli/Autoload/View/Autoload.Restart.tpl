@@ -1,0 +1,2 @@
+Autoload restarted.
+{autoload.restart()}

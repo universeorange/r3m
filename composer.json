@@ -1,0 +1,26 @@
+{
+	"name" : "r3m/framework",
+	"description" : "R3M framework see https://universeorange.com for detailed usage",
+	"type" : "library",
+	"keywords" : ["framework", "r3m", "library"],
+	"homepage": "https://universeorange.com",
+	"require" : {
+		"php": ">=7.1",
+		"ext-mbstring": "*",
+		"ext-json": "*",
+		"ext-posix": "*",
+		"ext-zend-opcache": "*",
+		"monolog/monolog" : "^2.2"
+    },
+	"license" : "MIT",
+	"authors" : [{
+			"name" : "Remco van der Velde",
+			"email" : "remco@universeorange.com"
+		}
+	],
+	"autoload" : {
+		"psr-4" : {
+			"R3m\\Io\\" : "src/"
+		}
+	}
+}

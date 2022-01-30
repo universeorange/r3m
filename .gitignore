@@ -1,0 +1,6 @@
+/.idea/
+/.settings/
+/vendor/
+/src/Temp/
+.buildpath
+.project
